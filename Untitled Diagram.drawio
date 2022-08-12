@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T17:47:28.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="b1bY87rgP1HD1oo98DiA" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-12T18:00:02.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="dAZuTDuGyr1ubUWI1PA5" version="20.2.3" type="github">
   <diagram id="9CGvMPEiqMINcijdeRet" name="Page-1">
     <mxGraphModel dx="965" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
             <mxPoint x="410" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U_kcKBBIkAFzQ7EXh_UN-24" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U_kcKBBIkAFzQ7EXh_UN-4">
+        <mxCell id="U_kcKBBIkAFzQ7EXh_UN-24" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="U_kcKBBIkAFzQ7EXh_UN-4">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="310" y="350" as="sourcePoint" />
             <mxPoint x="410" y="250" as="targetPoint" />
@@ -65,6 +65,24 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="530" y="510" as="sourcePoint" />
             <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_kcKBBIkAFzQ7EXh_UN-42" value="alergens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U_kcKBBIkAFzQ7EXh_UN-43" value="product_allergens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="414" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U_kcKBBIkAFzQ7EXh_UN-44" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="U_kcKBBIkAFzQ7EXh_UN-43">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="530" y="380" as="sourcePoint" />
+            <mxPoint x="640" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_kcKBBIkAFzQ7EXh_UN-45" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U_kcKBBIkAFzQ7EXh_UN-42">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="740" y="320" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
